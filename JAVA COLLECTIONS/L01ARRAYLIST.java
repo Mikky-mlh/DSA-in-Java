@@ -38,7 +38,7 @@ public class L01ARRAYLIST {
         System.out.println(marks);
         marks.remove(Integer.valueOf(100)); // Remove by value
         System.out.println(marks);
-        System.out.println(marks.size()); // Get size
+        System.out.println("Size:" + marks.size()); // Get size
 
         studentsName.clear(); // Remove all elements
         System.out.println(studentsName);
