@@ -1,5 +1,6 @@
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.TreeSet;
 import java.util.Set;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -81,5 +82,9 @@ public class L05HashSet{
         // LinkedHashSet: Combines HashSet (no duplicates, O(1)) + LinkedList (insertion order)
         Set<Integer> linkedSet = new LinkedHashSet<>(Arrays.asList(5, 2, 8, 2, 1));
         System.out.println("LinkedHashSet maintains order: " + linkedSet); // [5, 2, 8, 1]
+        
+        // TreeSet: Red-Black tree based Set, no duplicates, sorted order, O(log n) operations
+        Set<Integer> treeSet = new TreeSet<>(Arrays.asList(5, 2, 8, 2, 1));
+        System.out.println("TreeSet sorted order: " + treeSet); // [1, 2, 5, 8]
     }
 }
