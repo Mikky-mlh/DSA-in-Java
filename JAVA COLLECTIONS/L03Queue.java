@@ -1,5 +1,6 @@
 import java.util.Queue;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 
 // A Queue is a FIFO (First-In, First-Out) data structure.
 // Add from rear, delete from front
@@ -59,6 +60,25 @@ public class L03Queue {
         System.out.println("Clear Queue: " + queue);
         System.out.println("IsEmpty after clear: " + queue.isEmpty());
     
+        //! Priority Queue
+        Queue<Integer> pq = new PriorityQueue<>(/* Comparator.reverseOrder() makes priority reversed*/);
+        pq.offer(99);
+        pq.offer(39);
+        pq.offer(52);
+        pq.offer(67);
+        System.out.println("Priority Queue: " + pq);
+        pq.poll(); //removes the first element in the queue(lowest priority)(smallest number)
+        System.out.println("Priority Queue after Poll: " + pq);
+        
+        Queue<String> spq = new PriorityQueue<>();
+        spq.offer("Yuvraj");
+        spq.offer("Prince");
+        spq.offer("Hina");//unsafe
+        spq.offer("hina");//safe
+        spq.offer("Mikky");
+        System.out.println("String Priority Queue: " + spq);
+        spq.poll();//del Hina due to alphabetical order
+        System.out.println("String Priority Queue: " + spq);
 
     }
 }
