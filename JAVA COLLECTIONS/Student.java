@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 // Student class for HashSet demonstration - shows proper equals/hashCode implementation
 public class Student{
     String name;
@@ -34,9 +32,7 @@ public class Student{
         if (getClass() != obj.getClass())
             return false;
         Student other = (Student) obj;
-        if (rollNo != other.rollNo)
-            return false;
-        return true;
+        return rollNo == other.rollNo;
     }
 
     

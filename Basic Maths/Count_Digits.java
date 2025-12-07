@@ -1,4 +1,3 @@
-//TODO: Program to count digits
 import java.util.Scanner;
 public class Count_Digits {
     public static void main(String[] args) {
