@@ -3,7 +3,7 @@ import java.util.List;
 
 
 
-public class L08Arrays {
+public class L08ArrayCollections {
     public static void main(String[] args) {
         // 1. Array Declaration and Initialization
         int[] intArray = new int[5]; // Declares an array of 5 integers, initialized to 0
@@ -52,7 +52,7 @@ public class L08Arrays {
         // 6. Sorting Arrays
         Arrays.sort(intArray);
         System.out.println("Sorted intArray: " + Arrays.toString(intArray));
-        System.out.println(Arrays.toString(intArray)); // intArray will not be printed wihout toString()
+        System.out.println(Arrays.toString(intArray)); // intArray will not be printed without toString()
 
         Arrays.sort(stringArray);
         System.out.println("Sorted stringArray: " + Arrays.toString(stringArray));
