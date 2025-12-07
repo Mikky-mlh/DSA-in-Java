@@ -55,5 +55,21 @@ public class L09Collections{
 
         System.out.println("Frequency of 26: " + Collections.frequency(list, 26));
 
+        //! Custom Sorting
+
+        List<Custom_Collections> students = new ArrayList<>();
+        students.add(new Custom_Collections("Yuvraj", 5));
+        students.add(new Custom_Collections("Prince", 1));
+        students.add(new Custom_Collections("Hina", 6));
+        students.add(new Custom_Collections("Mikky", 13));
+
+        // Sort using a Comparator for the 'name' field.
+        // We use a method reference for a clean and modern approach.
+        Collections.sort(students, Comparator.comparing(Custom_Collections::getName));
+        System.out.println("Sorted by name: " + students);
+
+        // Sort using a different Comparator for the 'rollNo' field.
+        Collections.sort(students, Comparator.comparingInt(Custom_Collections::getRollNo));
+        System.out.println("Sorted by rollNo: " + students);
     }
 }
