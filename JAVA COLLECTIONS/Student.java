@@ -17,17 +17,28 @@ public class Student{
                 '}';
     }
 
-    @Override // Two students equal if same rollNo - required for HashSet duplicate detection
-    public boolean equals(Object o) {
-        if(this == o) return true;  // Same object reference - definitely equal
-        if(o == null || getClass() != o.getClass()) return false;  // Null or different class - not equal
-        Student student = (Student) o;  // Safe cast after class check
-        return rollNo == student.rollNo;  // Compare rollNo only - business logic for equality
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + rollNo;
+        return result;
     }
 
-    @Override // Hash based on rollNo for HashSet compatibility
-    public int hashCode() {
-        return Objects.hash(rollNo);
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Student other = (Student) obj;
+        if (rollNo != other.rollNo)
+            return false;
+        return true;
     }
+
+    
 
 }
