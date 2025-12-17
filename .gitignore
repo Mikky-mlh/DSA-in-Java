@@ -1,3 +1,5 @@
 *.class
 input.txt
 output.txt
+Runner.java
+*.json

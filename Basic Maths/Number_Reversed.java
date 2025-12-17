@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class Number_Reversed {
     public int reverse(int x) {
         int rev = 0;
@@ -26,16 +24,5 @@ class Number_Reversed {
         }
         
         return rev;
-    }
-    
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Number_Reversed nr = new Number_Reversed();
-        
-        int x = sc.nextInt();
-        int result = nr.reverse(x);
-        System.out.println(result);
-        
-        sc.close();
     }
 }
