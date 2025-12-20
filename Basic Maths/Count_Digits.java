@@ -7,5 +7,6 @@ public class Count_Digits {
             count++;
         }
         return count;
+        // count==log 10 (N) + 1 
     }
 }
