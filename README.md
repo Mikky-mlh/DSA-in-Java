@@ -20,6 +20,7 @@
 
 - [About This Repository](#-about-this-repository)
 - [Progress Tracker](#-progress-tracker)
+- [Complexity Cheat Sheet](#-complexity-cheat-sheet)
 - [Learning Approach](#-learning-approach)
 - [Repository Structure](#-repository-structure)
 - [What I've Learned](#-what-ive-learned)
@@ -42,50 +43,6 @@ This repository documents my structured DSA learning journey from **November 202
 
 **Learning Philosophy:**
 I don't memorize solutions—I learn **patterns**. Each problem teaches me a reusable approach that applies to dozens of similar problems. This repository showcases understanding, not just code.
-<div align="center">
-
-# 🧠 DSA Journey in Java
-
-### Systematic DSA preparation through self-learning | Pattern-first learning approach
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-Mikky__mlh-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Mikky_mlh/)
-[![Java](https://img.shields.io/badge/Java-17+-007396?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Problems Solved](https://img.shields.io/badge/Problems-33_Unique-success?style=for-the-badge)](https://github.com/Mikky-mlh/DSA-LeetCode-Java)
-
-![Started](https://img.shields.io/badge/Started-November_20,_2025-orange?style=flat-square)
-![Current Phase](https://img.shields.io/badge/Phase-Foundations-blue?style=flat-square)
-![Acceptance Rate](https://img.shields.io/badge/LeetCode_Acceptance-64.52%25-success?style=flat-square)
-
-</div>
-
----
-
-## 📋 Table of Contents
-
-- [About This Repository](#-about-this-repository)
-- [Progress Tracker](#-progress-tracker)
-- [Learning Approach](#-learning-approach)
-- [Repository Structure](#-repository-structure)
-- [What I've Learned](#-what-ive-learned)
-- [Problem-Solving Workflow](#-problem-solving-workflow)
-- [Resources](#-resources)
-- [Important Note](#%EF%B8%8F-important-note)
-- [Current Focus & Next Steps](#-current-focus--next-steps)
-- [Connect](#-connect)
-
----
-
-## 🎯 About This Repository
-
-This repository documents my structured DSA learning journey from **November 2025** through self-learning and systematic practice.
-
-**Journey Goals:**
-- Master fundamental data structures and algorithms through pattern recognition
-- Solve 500+ problems across all difficulty levels by May 2028
-- Build interview-ready problem-solving skills for technical rounds
-
-**Learning Philosophy:**
-Don't memorize solutions—Learn **patterns**. Each problem teaches me a reusable approach that applies to dozens of similar problems. This repository showcases understanding, not just code.
 
 ---
 
@@ -123,11 +80,11 @@ Don't memorize solutions—Learn **patterns**. Each problem teaches me a reusabl
 
 | Section | Core Problems | Additional Solved | Total Solved | Status |
 |:--------|:------------:|:----------------:|:------------:|:------:|
-| **Patterns** | 7/7 | 10 | 17 | ✅ Complete (more coming as I practice) |
-| **Basic Maths** | 7/7 | 19 | 26 | ✅ Complete (more coming as I practice) |
-| **MISC/OOP** | N/A | 1 | 1 | ✅ Complete (more coming as I practice) |
-| **Basic Recursion** | 0/7 | 0 | 0 | 🔄 Next |
-| **Basic Hashing** | 2/6 | 0 | 2 | ⏳ Started |
+| [**Patterns**](./Patterns/) | 7/7 | 10 | 17 | ✅ Complete |
+| [**Basic Maths**](./Basic%20Maths/) | 7/7 | 19 | 26 | ✅ Complete |
+| [**MISC/OOP**](./Misc/) | N/A | 1 | 1 | ✅ Complete |
+| [**Basic Recursion**](./Basic%20Recursion/) | 0/7 | 0 | 0 | 🔄 Next |
+| [**Basic Hashing**](./Basic%20Hashing/) | 2/6 | 0 | 2 | ⏳ Started |
 | **Sorting** | 0/7 | 0 | 0 | ⏳ Planned |
 | **Binary Search** | 0/32 | 0 | 0 | ⏳ Planned |
 
@@ -142,57 +99,21 @@ Don't memorize solutions—Learn **patterns**. Each problem teaches me a reusabl
 - [ ] **First 200 problems** - Interview ready (Easy) (Target: Jun 2026)
 - [ ] **First 350 problems** - Medium problems comfortable (Target: Dec 2026)
 - [ ] **500+ problems** - Interview ready (All levels) (Target: May 2028)
-<div align="center">
-
-### 📈 Journey Statistics
-
-| Metric | Value |
-|:-------|:-----:|
-| 🚀 **Started** | November 20, 2025 |
-| 📅 **Days Active** | 32 days |
-| ✅ **Problems Solved** | 43 unique |
-| 🔄 **Total Implementations** | 51 (43 unique + 8 optimized) |
-| 🎯 **LeetCode Acceptance** | 64.52% ⬆️ |
-
-**LeetCode Profile:** [@Mikky_mlh](https://leetcode.com/u/Mikky_mlh/)
-
-</div>
-
-> **Note:** The number of solutions on my LeetCode profile may differ from this repository due to certain problems being unavailable on the platform or restricted behind a paywall. These problems were completed on alternative platforms or solved locally, and all solutions are available in this repository.
 
 ---
 
-### 🎓 Basics Mastery
+## ⚡ Complexity Cheat Sheet
 
-| Topic | Completed | Status |
-|:------|:---------:|:------:|
-| **Java Collections** | 9/9 | ✅ Mastered |
+A summary of the time/space tradeoffs I have analyzed and implemented so far.
 
----
-
-### 💻 Problem-Solving Progress
-
-| Section | Core Problems | Additional Solved | Total Solved | Status |
-|:--------|:------------:|:----------------:|:------------:|:------:|
-| **Patterns** | 7/7 | 10 | 17 | ✅ Complete (more coming as I practice) |
-| **Basic Maths** | 7/7 | 19 | 26 | ✅ Complete (more coming as I practice) |
-| **MISC/OOP** | N/A | 1 | 1 | ✅ Complete (more coming as I practice) |
-| **Basic Recursion** | 0/7 | 0 | 0 | 🔄 Next |
-| **Basic Hashing** | 2/6 | 0 | 2 | ⏳ Started |
-| **Sorting** | 0/7 | 0 | 0 | ⏳ Planned |
-| **Binary Search** | 0/32 | 0 | 0 | ⏳ Planned |
-
----
-
-### 🎯 Progress Milestones
-
-- [x] ✅ **First 10 problems** - Foundation (Nov 20-28, 2025)
-- [x] ✅ **First 30 problems** - Pattern recognition building (Nov 29-Dec 22, 2025)
-- [ ] 🎯 **First 50 problems** - Basic patterns mastered (Target: Dec 31, 2025)
-- [ ] **First 100 problems** - Confidence building (Target: Feb 2026)
-- [ ] **First 200 problems** - Interview ready (Easy) (Target: Jun 2026)
-- [ ] **First 350 problems** - Medium problems comfortable (Target: Dec 2026)
-- [ ] **500+ problems** - Interview ready (All levels) (Target: May 2028)
+| Pattern/Topic | Best Time Complexity | Space Complexity | Example Problems |
+|:--------------|:---------------------|:-----------------|:-----------------|
+| **Digit Extraction** | $O(\log_{10} n)$ | $O(1)$ | Palindrome, Armstrong Number |
+| **Euclidean Algorithm** | $O(\log(\min(a, b)))$ | $O(1)$ | GCD/HCF, LCM |
+| **Divisors Check** | $O(\sqrt{n})$ | $O(1)$ | Print Divisors, Prime Check |
+| **Cycle Detection** | $O(n)$ | $O(1)$ | Happy Number (Floyd's Cycle) |
+| **Two Pointers** | $O(n)$ | $O(1)$ | Squares of Sorted Array (Optimized) |
+| **Frequency Map** | $O(n)$ | $O(1)$ (fixed alphabet) | First Unique Character |
 
 ---
 
@@ -232,47 +153,89 @@ I follow a **pattern-first learning approach** instead of randomly solving probl
 ---
 
 ## 📂 Repository Structure
+
 ```
+
 DSA-LeetCode-Java/
+
 │
+
 ├── 📁 Basic Maths/              # 26 problems (7 core + 19 additional) + 8 optimized versions
+
 │   ├── Count_Digits.java
+
 │   ├── Number_Reversed.java
+
 │   ├── Palindrome.java
+
 │   ├── HCF.java
+
 │   ├── LCM.java & LCM2.java    # Brute force + Optimized
+
 │   ├── Armstrong_Number.java
+
 │   ├── Prime.java
+
 │   ├── Divisors.java & Divisors_int.java  # O(n) + O(√n)
+
 │   ├── Duplicate.java, DuplicateB.java, DuplicateO.java  # 3 approaches
+
 │   ├── HappyNumber.java & HappyNumberOptimized.java  # HashSet + Math property
+
 │   ├── PerfectNumber.java & PerfectNumberOP.java  # O(n) + O(√n)
+
 │   ├── Square_of_SortedArray.java & Square_of_SortedArray_OP.java  # Sort + Two-pointer
+
 │   ├── First_unique_Char_in_Str.java & Unique_char_O.java  # indexOf + Frequency array
+
 │   └── [18+ more problems]
+
 │
+
 ├── 📁 JAVA COLLECTIONS/         # 9 comprehensive demos
+
 │   ├── L01ARRAYLIST.java       # ArrayList with all methods
+
 │   ├── L02Stacks.java          # Stack (LIFO - Last In First Out)
+
 │   ├── L03Queue.java           # Queue & PriorityQueue (FIFO - First In First Out)
+
 │   ├── L04ArrayDeque.java      # Double-ended queue
+
 │   ├── L05HashSet.java         # HashSet, LinkedHashSet, TreeSet
+
 │   ├── L06HashMap.java         # HashMap operations
+
 │   ├── L07TreeMap.java         # TreeMap (sorted keys)
+
 │   ├── L08ArrayCollections.java
+
 │   └── L09Collections.java     # Collections utility methods
+
 │
+
 ├── 📁 Patterns/                 # 17 pattern problems + comprehensive guide
+
 │   ├── PATTERN_RULES.txt       # Universal pattern solving methodology
+
 │   ├── Pattern1.java - Pattern17.java
+
 │   └── [Includes: Triangle, Diamond, Butterfly, Pascal's Triangle, etc.]
+
 │
+
 ├── 📁 Misc/                     # Object-oriented problems
+
 │   └── Bank.java               # Bank system with transfer/deposit/withdraw
+
 │
+
 ├── 📄 .gitignore
+
 └── 📖 README.md                # This file
+
 ```
+
 ---
 
 ## 📚 What I've Learned
@@ -285,84 +248,21 @@ DSA-LeetCode-Java/
 - Common formulas: `2*i+1` (odd numbers), `n-i-1` (centering), `i>n ? formula2 : formula1` (diamond logic)
 - Documented universal rules in `PATTERN_RULES.txt`
 
-**Key Patterns Built:**
-- Triangles (increasing/decreasing)
-- Pyramids (centered)
-- Diamond & Hourglass (two-part patterns)
-- Hollow patterns (border conditions)
-- Number patterns (sequential, row-based, palindrome)
-- Advanced: Butterfly, Pascal's Triangle
-
 ### Basic Maths (26/26 Complete) ✅
 
 **Core Patterns Learned:**
 - **Digit Extraction:** `n % 10` (last digit), `n / 10` (remove last digit)
 - **Euclidean Algorithm:** GCD using recursion - `gcd(a,b) = gcd(b, a%b)`
 - **Mathematical Properties:** LCM formula `(a*b)/GCD`, Digital Root using `mod 9`
-- **Modular Arithmetic:** For large numbers to prevent overflow
 - **Square Root Optimization:** O(√n) for divisor problems (used in 3 problems)
-
-**Representative Problems:**
-- LCM: Brute force O(n) → Mathematical formula using GCD O(log n)
-- Prime Check: O(n) → O(√n) by checking only up to sqrt
-- Divisors: O(n) → O(√n) by adding both i and n/i
-- Happy Number: HashSet cycle detection → O(1) space using math property
-- Perfect Number: O(n) → O(√n) optimization
-- Ugly Number: Prime factorization using iterative division
-
-**What Makes This Advanced:**
-Not just solving—**understanding tradeoffs**. For example:
-- Contains Duplicate has 3 solutions with different time/space complexity
-- Choosing HashSet.add() over HashSet.contains() saves a lookup
-- Understanding WHEN O(n) space is acceptable vs when O(1) is required
 
 ### Java Collections Framework (9/9 Mastered) ✅
 
 **Comprehensive Understanding:**
-
-**List Implementations:**
-- ArrayList: Dynamic array, O(1) random access, O(n) insertion (middle)
-- LinkedList: Doubly-linked, O(1) insertion at ends, O(n) random access
-- When to use: ArrayList for random access, LinkedList for frequent insertions
-
-**Queue Implementations:**
-- Queue (LinkedList): FIFO, offer/poll/peek
-- PriorityQueue: Min-heap by default, O(log n) operations
-- ArrayDeque: Preferred over Stack, both ends access, O(1) operations
-
-**Set Implementations:**
-- HashSet: O(1) operations, no order, allows null
-- LinkedHashSet: Insertion order maintained, slightly slower
-- TreeSet: Sorted, O(log n) operations, no null
-
-**Map Implementations:**
-- HashMap: O(1) operations, no order
-- TreeMap: Sorted by keys, O(log n) operations
-- When to use: HashMap for speed, TreeMap when order matters
-
-**Advanced Concepts:**
-- Comparable vs Comparator for custom sorting
-- equals() and hashCode() for custom objects in HashSet/HashMap
-- Collections utility methods: sort, reverse, frequency, min, max
-
-### Time & Space Complexity Analysis
-
-**Time Complexity:**
-- O(1): Constant - HashMap get/put, array index access
-- O(log n): Logarithmic - Binary search, TreeMap operations
-- O(n): Linear - Single array traversal, HashSet operations
-- O(n log n): Sorting - Arrays.sort(), Collections.sort()
-- O(n²): Nested loops - Brute force solutions
-
-**Space Complexity:**
-- O(1): No extra space (maybe a few variables)
-- O(n): Extra array/HashSet of size n
-- O(log n): Recursion stack depth
-
-**Understanding Tradeoffs:**
-- Sorting approach: O(n log n) time, O(1) space
-- HashMap approach: O(n) time, O(n) space
-- Which is better? **Depends on the problem constraints**
+- **List:** ArrayList (Random access) vs LinkedList (Insertion)
+- **Set:** HashSet (Unordered) vs TreeSet (Sorted)
+- **Map:** HashMap (Speed) vs TreeMap (Order)
+- **Advanced:** Custom `Comparator` implementation and `hashCode()` overrides.
 
 ---
 
@@ -385,23 +285,12 @@ Not just solving—**understanding tradeoffs**. For example:
    - Negative numbers (if applicable)
    - Maximum constraints
 7. **Test locally** - Run through all test cases in IDE
-8. **Debug if needed** - Print statements, trace execution
 
 ### After Solving
 
 9. **Submit to LeetCode** - Only after local tests pass
 10. **Analyze complexity** - Calculate time and space
-11. **Read discussions** - See alternative approaches
-12. **Optimize if possible** - Can time or space be improved?
-13. **Document pattern** - Add comments explaining the approach
-
-### Pattern Documentation
-
-For each new pattern, I note:
-- **Pattern name** (e.g., "Two Pointers", "HashMap for frequency")
-- **When to use** (e.g., "Sorted array + finding pairs")
-- **Time/Space complexity**
-- **Similar problems** that use this pattern
+11. **Optimize if possible** - Can time or space be improved?
 
 ---
 
@@ -412,24 +301,13 @@ For each new pattern, I note:
 **Self-Learning Resources**
 - Approach: Structured DSA curriculum focusing on patterns, not just solutions
 - Why: Understanding patterns builds real problem-solving skills
-- How I use: Learn pattern concepts → code independently → analyze different approaches
 
 **LeetCode**
-- Platform: [leetcode.com](https://leetcode.com)
 - Profile: [@Mikky_mlh](https://leetcode.com/u/Mikky_mlh/)
-- Why: Industry-standard problem platform, active discussions
 - How I use: Problem practice, reading alternative solutions
 
-**GeeksforGeeks**
-- Website: [geeksforgeeks.org](https://www.geeksforgeeks.org/)
-- Why: Detailed algorithm explanations with examples
-- How I use: Reference for additional depth and clarity
-
-### Supplementary Resources
-
-- **Java Documentation** - Official reference for Collections, syntax
-- **LeetCode Discussions** - Learning from different approaches
-- **Problem Editorials** - Understanding optimal solutions
+**Visualization Tools (Upcoming)**
+- As I move into Recursion, I will be using recursion tree diagrams to visualize stack trace execution.
 
 ### Why Java?
 
@@ -437,8 +315,7 @@ For each new pattern, I note:
 1. **Explicit typing teaches precision** - Forces understanding of data types
 2. **Industry standard in India** - LEGACY CODE
 3. **Strong Collections Framework** - Rich built-in data structures
-4. **Verbose syntax = forced understanding** - Can't hide behind Python's syntactic sugar
-5. **Preparation for production code** - Real-world applications use Java
+4. **Preparation for production code** - Real-world applications use Java
 
 ---
 
@@ -451,34 +328,16 @@ For each new pattern, I note:
 **If you're here to copy-paste for LeetCode submissions:**
 - You're sabotaging your own learning
 - You won't learn the patterns needed for interviews
-- LeetCode success means nothing if you can't solve problems in actual interviews
 - Companies will expose this in technical rounds immediately
 
-**How to use this repo ethically:**
-
-✅ **DO:**
-- Attempt problems yourself FIRST
-- Compare your solution to mine AFTER solving
-- Read my comments to understand the thought process
-- Use this to see how I organize DSA practice
-- Learn patterns, not memorize code
-
-❌ **DON'T:**
-- Submit my code as your own work
-- Copy solutions before attempting yourself
-- Use this to inflate your LeetCode solved count
-- Skip the learning process
-
 **My approach:** Pattern recognition through systematic learning. I study patterns from various resources, code independently, test locally, then submit. This builds real problem-solving skills.
-
-**Your approach should be:** Learn the pattern, apply it yourself, compare results.
 
 ---
 
 ## 🎯 Current Focus & Next Steps
 
 **Right Now (Dec 23-31, 2025):**
-- Starting Basic Recursion (7 problems)
+- Starting **Basic Recursion** (7 problems)
 - Understanding recursion patterns: base cases, recursive cases, call stack
 - Target: 5-7 recursion problems by Dec 31
 
@@ -486,13 +345,6 @@ For each new pattern, I note:
 - Complete Basic Recursion
 - Start Basic Hashing (6 problems)
 - Begin transitioning to Medium difficulty
-
-**Long-term Goals:**
-- Phase 1 (Nov 2025-Dec 2025): Foundations - Easy problems ✅
-- Phase 2 (Jan 2026-Feb 2026): Intermediate - Medium problems start
-- Phase 3 (Mar 2026-Jun 2026): Advanced topics - Trees, Graphs, DP
-- Phase 4 (Jul 2026-Oct 2026): Interview prep - Company-specific problems
-- Phase 5 (Nov 2026-May 2028): Mastery - 500+ problems, all patterns
 
 ---
 
@@ -520,6 +372,8 @@ Feel free to open an issue or reach out. Always happy to discuss problem-solving
 
 ⭐ **Star this repo if you found it helpful!**
 
-*Last Updated: December 22, 2025*
+*Last Updated: December 23, 2025*
 
 </div>
+
+
