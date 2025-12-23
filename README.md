@@ -25,7 +25,9 @@
 - [What I've Learned](#-what-ive-learned)
 - [Problem-Solving Workflow](#-problem-solving-workflow)
 - [Resources](#-resources)
-- [Important Note](#-important-note)
+- [Important Note](#%EF%B8%8F-important-note)
+- [Current Focus & Next Steps](#-current-focus--next-steps)
+- [Connect](#-connect)
 
 ---
 
