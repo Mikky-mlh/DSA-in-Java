@@ -155,85 +155,24 @@ I follow a **pattern-first learning approach** instead of randomly solving probl
 ## 📂 Repository Structure
 
 ```
-
 DSA-LeetCode-Java/
-
+├── 📁 Basic Maths/                    # 26 problems + 8 optimized versions
+│   ├── Core: Count_Digits, Reverse, Palindrome, HCF, LCM, Armstrong, Prime
+│   ├── Optimized: LCM (2 versions), Divisors (O(√n)), Perfect Number (O(√n))
+│   ├── Multiple Approaches: Duplicate (3), Happy Number (2), Squares Array (2)
+│   └── Additional: 18+ problems covering number theory & math fundamentals
 │
-
-├── 📁 Basic Maths/              # 26 problems (7 core + 19 additional) + 8 optimized versions
-
-│   ├── Count_Digits.java
-
-│   ├── Number_Reversed.java
-
-│   ├── Palindrome.java
-
-│   ├── HCF.java
-
-│   ├── LCM.java & LCM2.java    # Brute force + Optimized
-
-│   ├── Armstrong_Number.java
-
-│   ├── Prime.java
-
-│   ├── Divisors.java & Divisors_int.java  # O(n) + O(√n)
-
-│   ├── Duplicate.java, DuplicateB.java, DuplicateO.java  # 3 approaches
-
-│   ├── HappyNumber.java & HappyNumberOptimized.java  # HashSet + Math property
-
-│   ├── PerfectNumber.java & PerfectNumberOP.java  # O(n) + O(√n)
-
-│   ├── Square_of_SortedArray.java & Square_of_SortedArray_OP.java  # Sort + Two-pointer
-
-│   ├── First_unique_Char_in_Str.java & Unique_char_O.java  # indexOf + Frequency array
-
-│   └── [18+ more problems]
-
+├── 📁 JAVA COLLECTIONS/               # 9 comprehensive demos
+│   └── ArrayList • Stack • Queue • Deque • HashSet • HashMap • TreeMap
 │
-
-├── 📁 JAVA COLLECTIONS/         # 9 comprehensive demos
-
-│   ├── L01ARRAYLIST.java       # ArrayList with all methods
-
-│   ├── L02Stacks.java          # Stack (LIFO - Last In First Out)
-
-│   ├── L03Queue.java           # Queue & PriorityQueue (FIFO - First In First Out)
-
-│   ├── L04ArrayDeque.java      # Double-ended queue
-
-│   ├── L05HashSet.java         # HashSet, LinkedHashSet, TreeSet
-
-│   ├── L06HashMap.java         # HashMap operations
-
-│   ├── L07TreeMap.java         # TreeMap (sorted keys)
-
-│   ├── L08ArrayCollections.java
-
-│   └── L09Collections.java     # Collections utility methods
-
+├── 📁 Patterns/                       # 17 problems + solving framework
+│   ├── PATTERN_RULES.txt (Universal methodology)
+│   └── Triangle • Diamond • Butterfly • Pascal's Triangle & more
 │
-
-├── 📁 Patterns/                 # 17 pattern problems + comprehensive guide
-
-│   ├── PATTERN_RULES.txt       # Universal pattern solving methodology
-
-│   ├── Pattern1.java - Pattern17.java
-
-│   └── [Includes: Triangle, Diamond, Butterfly, Pascal's Triangle, etc.]
-
+├── 📁 Misc/                           # OOP implementations
+│   └── Bank.java (Transfer/Deposit/Withdraw system)
 │
-
-├── 📁 Misc/                     # Object-oriented problems
-
-│   └── Bank.java               # Bank system with transfer/deposit/withdraw
-
-│
-
-├── 📄 .gitignore
-
-└── 📖 README.md                # This file
-
+└── 📖 README.md
 ```
 
 ---
