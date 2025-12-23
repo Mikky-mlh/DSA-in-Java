@@ -42,11 +42,106 @@ This repository documents my structured DSA learning journey from **November 202
 
 **Learning Philosophy:**
 I don't memorize solutions—I learn **patterns**. Each problem teaches me a reusable approach that applies to dozens of similar problems. This repository showcases understanding, not just code.
+<div align="center">
+
+# 🧠 DSA Journey in Java
+
+### Systematic DSA preparation through self-learning | Pattern-first learning approach
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Mikky__mlh-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Mikky_mlh/)
+[![Java](https://img.shields.io/badge/Java-17+-007396?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Problems Solved](https://img.shields.io/badge/Problems-33_Unique-success?style=for-the-badge)](https://github.com/Mikky-mlh/DSA-LeetCode-Java)
+
+![Started](https://img.shields.io/badge/Started-November_20,_2025-orange?style=flat-square)
+![Current Phase](https://img.shields.io/badge/Phase-Foundations-blue?style=flat-square)
+![Acceptance Rate](https://img.shields.io/badge/LeetCode_Acceptance-64.52%25-success?style=flat-square)
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [About This Repository](#-about-this-repository)
+- [Progress Tracker](#-progress-tracker)
+- [Learning Approach](#-learning-approach)
+- [Repository Structure](#-repository-structure)
+- [What I've Learned](#-what-ive-learned)
+- [Problem-Solving Workflow](#-problem-solving-workflow)
+- [Resources](#-resources)
+- [Important Note](#%EF%B8%8F-important-note)
+- [Current Focus & Next Steps](#-current-focus--next-steps)
+- [Connect](#-connect)
+
+---
+
+## 🎯 About This Repository
+
+This repository documents my structured DSA learning journey from **November 2025** through self-learning and systematic practice.
+
+**Journey Goals:**
+- Master fundamental data structures and algorithms through pattern recognition
+- Solve 500+ problems across all difficulty levels by May 2028
+- Build interview-ready problem-solving skills for technical rounds
+
+**Learning Philosophy:**
+I don't memorize solutions—I learn **patterns**. Each problem teaches me a reusable approach that applies to dozens of similar problems. This repository showcases understanding, not just code.
 
 ---
 
 ## 📊 Progress Tracker
 
+<div align="center">
+
+### 📈 Journey Statistics
+
+| Metric | Value |
+|:-------|:-----:|
+| 🚀 **Started** | November 20, 2025 |
+| 📅 **Days Active** | 32 days |
+| ✅ **Problems Solved** | 43 unique |
+| 🔄 **Total Implementations** | 51 (43 unique + 8 optimized) |
+| 🎯 **LeetCode Acceptance** | 64.52% ⬆️ |
+
+**LeetCode Profile:** [@Mikky_mlh](https://leetcode.com/u/Mikky_mlh/)
+
+</div>
+
+> **Note:** The number of solutions on my LeetCode profile may differ from this repository due to certain problems being unavailable on the platform or restricted behind a paywall. These problems were completed on alternative platforms or solved locally, and all solutions are available in this repository.
+
+---
+
+### 🎓 Basics Mastery
+
+| Topic | Completed | Status |
+|:------|:---------:|:------:|
+| **Java Collections** | 9/9 | ✅ Mastered |
+
+---
+
+### 💻 Problem-Solving Progress
+
+| Section | Core Problems | Additional Solved | Total Solved | Status |
+|:--------|:------------:|:----------------:|:------------:|:------:|
+| **Patterns** | 7/7 | 10 | 17 | ✅ Complete (more coming as I practice) |
+| **Basic Maths** | 7/7 | 19 | 26 | ✅ Complete (more coming as I practice) |
+| **MISC/OOP** | N/A | 1 | 1 | ✅ Complete (more coming as I practice) |
+| **Basic Recursion** | 0/7 | 0 | 0 | 🔄 Next |
+| **Basic Hashing** | 2/6 | 0 | 2 | ⏳ Started |
+| **Sorting** | 0/7 | 0 | 0 | ⏳ Planned |
+| **Binary Search** | 0/32 | 0 | 0 | ⏳ Planned |
+
+---
+
+### 🎯 Progress Milestones
+
+- [x] ✅ **First 10 problems** - Foundation (Nov 20-28, 2025)
+- [x] ✅ **First 30 problems** - Pattern recognition building (Nov 29-Dec 22, 2025)
+- [ ] 🎯 **First 50 problems** - Basic patterns mastered (Target: Dec 31, 2025)
+- [ ] **First 100 problems** - Confidence building (Target: Feb 2026)
+- [ ] **First 200 problems** - Interview ready (Easy) (Target: Jun 2026)
+- [ ] **First 350 problems** - Medium problems comfortable (Target: Dec 2026)
+- [ ] **500+ problems** - Interview ready (All levels) (Target: May 2028)
 <div align="center">
 
 ### 📈 Journey Statistics
