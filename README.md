@@ -85,7 +85,7 @@ This repository documents my structured DSA learning journey from **November 202
 - Build interview-ready problem-solving skills for technical rounds
 
 **Learning Philosophy:**
-I don't memorize solutions—I learn **patterns**. Each problem teaches me a reusable approach that applies to dozens of similar problems. This repository showcases understanding, not just code.
+Don't memorize solutions—Learn **patterns**. Each problem teaches me a reusable approach that applies to dozens of similar problems. This repository showcases understanding, not just code.
 
 ---
 
