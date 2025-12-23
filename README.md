@@ -8,7 +8,7 @@
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Mikky__mlh-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Mikky_mlh/)
 [![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Problems Solved](https://img.shields.io/badge/Problems_Solved-43_Unique-success?style=for-the-badge)](https://github.com/Mikky-mlh/DSA-LeetCode-Java)
+[![Problems Solved](https://img.shields.io/badge/Problems_Solved-44_Unique-success?style=for-the-badge)](https://github.com/Mikky-mlh/DSA-LeetCode-Java)
 
 <br/>
 
@@ -79,8 +79,8 @@ This is documentation of my structured DSA learning journey from November 2025 o
 |:-------|:-----:|
 | 🚀 **Started** | November 20, 2025 |
 | 📅 **Days Active** | 33 days |
-| ✅ **Unique Problems** | 43 solved |
-| 🔄 **Total Implementations** | 51 (43 unique + 8 optimized) |
+| ✅ **Unique Problems** | 44 solved |
+| 🔄 **Total Implementations** | 52 (44 unique + 8 optimized) |
 | 📈 **Acceptance Rate** | 64.52% ⬆️ (+11.62%) |
 | 🎯 **LeetCode Profile** | [@Mikky_mlh](https://leetcode.com/u/Mikky_mlh/) |
 
@@ -102,7 +102,7 @@ This is documentation of my structured DSA learning journey from November 2025 o
 | **Sorting** | 0/7 | ⏳ **Planned** | Q1 2026 |
 | **Binary Search** | 0/32 | ⏳ **Planned** | Q1 2026 |
 
-**TOTAL: 43 unique problems + 8 optimized versions = 51 total implementations**
+**TOTAL: 44 unique problems + 8 optimized versions = 52 total implementations**
 
 ---
 
@@ -410,7 +410,7 @@ If you copy-paste from this repo and get caught in an interview, don't say I did
 **Structured progression through:**
 - Binary Search (32 problems)
 - Strings (25 problems)
-- Linked Lists (51 problems)
+- Linked Lists (52 problems)
 - Stacks & Queues (42 problems)
 - Trees (83 problems - this will take months)
 - Graphs (79 problems - another massive section)
@@ -453,7 +453,7 @@ Feel free to open an issue or reach out. Always down to discuss:
 <br/>
 
 *Last Updated: December 23, 2025*  
-*43 unique problems solved | 8 optimized versions | 64.52% acceptance rate*
+*44 unique problems solved | 8 optimized versions | 64.52% acceptance rate*
 
 </div>
 
