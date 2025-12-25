@@ -1,5 +1,6 @@
 public class Ugly_Number {
     public boolean isUgly(int n) {
+        //!UGLY NUMBER are numbers that are divisible by only 2, 3, 5
         if(n<=0){
             return false;
         }
