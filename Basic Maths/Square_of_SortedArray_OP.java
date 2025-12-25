@@ -1,23 +1,26 @@
 public class Square_of_SortedArray_OP {
     public int[] sortedSquares(int[] nums) {
-        int n =nums.length;
+        //! Square each element and return sorted array in O(n) time
+        //! Two-pointer approach: largest squares are at the ends (negative or positive)
+        
+        int n = nums.length;
         int[] sqr = new int[n];
-        int l=0;
-        int r= n-1;
+        int l = 0; // Left pointer
+        int r = n - 1; // Right pointer
 
-        for(int i=n-1; i>=0; i--){
-            int lsqr = nums[l]*nums[l];
-            int rsqr = nums[r]*nums[r];
+        for(int i = n-1; i >= 0; i--){ // Fill result from largest to smallest
+            int lsqr = nums[l] * nums[l]; // Square of leftmost
+            int rsqr = nums[r] * nums[r]; // Square of rightmost
 
-            if(lsqr>rsqr){
+            if(lsqr > rsqr){ // Left square is larger
                 sqr[i] = lsqr;
-                l++;
+                l++; // Move left pointer right
             }
-            else{
+            else{ // Right square is larger or equal
                 sqr[i] = rsqr;
-                r--;
+                r--; // Move right pointer left
             }
         }
-        return sqr;
+        return sqr; // Example: [-4,-1,0,3,10] → [0,1,9,16,100]
     }
 }
