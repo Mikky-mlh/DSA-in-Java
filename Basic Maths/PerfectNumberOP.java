@@ -1,5 +1,6 @@
 public class PerfectNumberOP {
     public boolean checkPerfectNumber(int num) {
+        //! OPTIMIZED
         if (num <= 1) return false;
         
         int sum = 1;
