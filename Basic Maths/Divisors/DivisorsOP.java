@@ -1,4 +1,4 @@
-public class Divisors_int {
+public class DivisorsOP {
     public static void print_divisors(int n) {
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
