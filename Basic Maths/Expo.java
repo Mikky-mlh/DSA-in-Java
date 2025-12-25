@@ -1,5 +1,13 @@
 class Expo {
     public double myPow(double x, int n) {
+        //! The following is the most basic solution which everyone will get inn their first try
+        
+        return Math.pow(x,n);
+
+        //! The following is the core concept of the solution
+        //~ remove comments to use it
+
+        /* 
         double ans=1;
         int m=n;
         if(n<0){
@@ -18,6 +26,8 @@ class Expo {
         if(m<0){
             ans=1/ans;
         }
-        return ans;
+        return ans; 
+        */
+
     }
 }
