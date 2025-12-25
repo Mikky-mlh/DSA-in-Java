@@ -78,9 +78,9 @@ This is documentation of my structured DSA learning journey from November 2025 o
 | Metric | Value |
 |:-------|:-----:|
 | 🚀 **Started** | November 20, 2025 |
-| 📅 **Days Active** | 33 days |
-| ✅ **Unique Problems** | 44 solved |
-| 🔄 **Total Implementations** | 52 (44 unique + 8 optimized) |
+| 📅 **Days Active** | 36 days |
+| ✅ **Unique Problems** | 47 solved |
+| 🔄 **Total Implementations** | 57 (47 unique + 10 optimized) |
 | 📈 **Acceptance Rate** | 64.52% ⬆️ (+11.62%) |
 | 🎯 **LeetCode Profile** | [@Mikky_mlh](https://leetcode.com/u/Mikky_mlh/) |
 
@@ -95,14 +95,14 @@ This is documentation of my structured DSA learning journey from November 2025 o
 | Section | Problems Solved | Status | Next Target |
 |:--------|:---------------:|:------:|:------------|
 | **Patterns** | 17/17 | ✅ **Complete** | Universal methodology documented |
-| **Basic Maths** | 26/26 | ✅ **Complete** | 8 problems with multiple solutions |
+| **Basic Maths** | 29/29 | ✅ **Complete** | 10 problems with multiple solutions |
 | **Misc/OOP** | 1/1 | ✅ **Complete** | Bank system implementation |
-| **Basic Recursion** | 0/7 | 🔄 **Next** | Starting Dec 23, 2025 |
-| **Basic Hashing** | 2/6 | ⏳ **Started** | Continue after recursion |
+| **Basic Recursion** | 0/7 | 🔄 **Next** | Starting Dec 26, 2025 |
+| **Basic Hashing** | 0/6 | ⏳ **Planned** | After recursion |
 | **Sorting** | 0/7 | ⏳ **Planned** | Q1 2026 |
 | **Binary Search** | 0/32 | ⏳ **Planned** | Q1 2026 |
 
-**TOTAL: 44 unique problems + 8 optimized versions = 52 total implementations**
+**TOTAL: 47 unique problems + 10 optimized versions = 57 total implementations**
 
 ---
 
@@ -134,7 +134,7 @@ This is documentation of my structured DSA learning journey from November 2025 o
 | **Two Pointers** | O(n) | Sorted array problems, optimization | Squares of Sorted Array |
 | **Frequency Map** | O(n) | Counting occurrences | First Unique Character |
 
-**8 problems with multiple solution approaches:**
+**10 problems with multiple solution approaches:**
 - **LCM:** Brute force → Mathematical formula using GCD
 - **Contains Duplicate:** HashSet.contains() → Sorting → HashSet.add() optimization
 - **Happy Number:** HashSet cycle detection → O(1) space using math property
@@ -143,8 +143,8 @@ This is documentation of my structured DSA learning journey from November 2025 o
 - **First Unique Character:** indexOf comparison → Frequency array
 - **Print Divisors:** O(n) iteration → O(√n) optimization
 - **GCD/HCF:** Iterative → Recursive Euclidean
-
-**This demonstrates:** Understanding time/space tradeoffs, not just "getting it accepted."
+- **Divisors:** Basic O(n) → Optimized O(√n) with pair collection
+- **Array Operations:** Multiple approaches for duplicate detection and array manipulation
 
 ---
 
@@ -250,34 +250,62 @@ DSA-LeetCode-Java/
 │   ├── Pascal_Triangle.java        # Pascal's triangle variations (2 problems)
 │   └── Advanced_Patterns.java      # Multi-conditional patterns (3 problems)
 │
-├── 📁 Basic Maths/                 # 26 unique + 8 optimized = 34 files
-│   ├── Core_Problems/
+├── 📁 Basic Maths/                 # 29 unique + 10 optimized = 39 files
+│   ├── 📁 Modulus_Digit/           # 10 problems - digit manipulation
 │   │   ├── Count_Digits.java
-│   │   ├── Reverse_Number.java     # With overflow handling
-│   │   ├── Palindrome_Number.java  # O(1) space optimization
+│   │   ├── Number_Reversed.java    # With overflow handling
+│   │   ├── Palindrome.java         # O(1) space optimization
+│   │   ├── Armstrong_Number.java
+│   │   ├── Add_Digits.java         # Digital root using mod 9
+│   │   ├── HappyNumber.java & HappyNumberOptimized.java  # HashSet → O(1) space
+│   │   ├── Self_Dividing_number.java
+│   │   ├── Smallest_Int_divisible_by_K.java
+│   │   └── Count_the_Digits_that_Divide_a_Number.java
+│   │
+│   ├── 📁 HCF_LCM/                 # 3 problems - GCD/LCM algorithms
 │   │   ├── HCF.java                # Euclidean algorithm
 │   │   ├── LCM.java & LCM2.java    # Brute force → Optimized
-│   │   ├── Armstrong_Number.java
-│   │   └── Prime_Number.java       # O(√n) optimization
 │   │
-│   ├── Optimized_Versions/
-│   │   ├── Divisors.java & Divisors_int.java       # O(n) → O(√n)
+│   ├── 📁 Divisors/                # 5 problems - divisor patterns
+│   │   ├── Divisors.java & DivisorsOP.java           # O(n) → O(√n)
+│   │   ├── PerfectNumber.java & PerfectNumberOP.java # O(n) → O(√n)
+│   │   └── Ugly_Number.java
+│   │
+│   ├── 📁 Sieve_Prime/             # 4 problems - prime number algorithms
+│   │   ├── Prime.java              # O(√n) optimization
+│   │   ├── Count_Prime.java        # Sieve of Eratosthenes
+│   │   ├── Prime_in_Range.java
+│   │   └── SPFQ.java               # Smallest Prime Factor queries
+│   │
+│   ├── 📁 Array_Operations/        # 8 problems - array manipulation
 │   │   ├── Duplicate.java, DuplicateB.java, DuplicateO.java  # 3 approaches
-│   │   ├── HappyNumber.java & HappyNumberOptimized.java      # HashSet → O(1) space
-│   │   ├── PerfectNumber.java & PerfectNumberOP.java         # O(n) → O(√n)
-│   │   ├── Square_of_SortedArray.java & Square_of_SortedArray_OP.java  # Sort → Two-pointer
-│   │   └── First_unique_Char_in_Str.java & Unique_char_O.java         # indexOf → Frequency array
+│   │   ├── Square_of_SortedArray.java & Square_of_SortedArray_OP.java
+│   │   ├── AP.java                 # Arithmetic Progression check
+│   │   ├── Closest_Number_to_Zero.java
+│   │   └── Plus1.java              # Array digit increment
 │   │
-│   └── Additional_Problems/        # 18 more problems covering number theory
-│       ├── Arithmetic_Progression.java
-│       ├── Add_Digits.java         # Digital root using mod 9
+│   └── 📁 Miscellaneous/           # 7 problems - number theory
+│       ├── Unique_char.java & Unique_char_O.java  # indexOf → Frequency array
 │       ├── Pivot_Integer.java      # Mathematical formula optimization
-│       ├── Excel_Sheet_Column.java # Base-26 conversion
-│       └── ... (14 more)
+│       ├── Excel_Column.java       # Base-26 conversion
+│       ├── Expo.java               # Power calculation
+│       ├── Fact_Zeroes.java        # Trailing zeros in factorial
+│       └── Power2.java             # Power of 2 check
 │
-├── 📁 JAVA COLLECTIONS/            # 9 comprehensive demos (NOT DSA problems)
-│   ├── ArrayList_Demo.java         # Dynamic arrays, CRUD operations
-│   ├── Stack_Demo.java             # LIFO structure
+├── 📁 JAVA COLLECTIONS/            # 13 comprehensive demos (NOT DSA problems)
+│   ├── L01ARRAYLIST.java           # Dynamic arrays, CRUD operations
+│   ├── L02Stacks.java              # LIFO structure
+│   ├── L03Queue.java               # FIFO structure, PriorityQueue
+│   ├── L04ArrayDeque.java          # Double-ended queue
+│   ├── L05HashSet.java             # HashSet, LinkedHashSet, TreeSet
+│   ├── L06HashMap.java             # Key-value pairs, O(1) lookup
+│   ├── L07TreeMap.java             # Sorted map, O(log n)
+│   ├── L08ArrayCollections.java    # Array utilities
+│   ├── L09Collections.java         # Collections utilities
+│   ├── ComparableVsComparatorDemo.java  # Custom sorting
+│   ├── Custom_Collections.java     # Custom objects in collections
+│   ├── MovieComparable.java        # Comparable implementation
+│   └── RatingComparator.java       # Comparator implementationucture
 │   ├── Queue_Demo.java             # FIFO structure
 │   ├── HashSet_Demo.java           # Unique elements, O(1) operations
 │   ├── HashMap_Demo.java           # Key-value pairs, O(1) lookup
@@ -383,19 +411,20 @@ If you copy-paste from this repo and get caught in an interview, don't say I did
 
 ## 🔮 What's Next
 
-### Immediate Focus (Dec 23-31, 2025)
+### Immediate Focus (Dec 26-31, 2025)
 
 **Starting Basic Recursion:**
 - Understanding recursion patterns (base case, recursive case, call stack)
 - Building intuition for recursive thinking
 - Target: 5-7 recursion problems by Dec 31
+- Current: 47 unique problems solved (213% over revised target of 22)
 
 ### January 2026
 
 **Complete Basic Recursion + Start Basic Hashing:**
 - Finish all 7 recursion problems
 - Begin hashing patterns (HashMap for frequency, HashSet for uniqueness)
-- Target: 60-70 total problems by end of month
+- Target: 65-75 total problems by end of month
 
 ### Q1 2026 (Jan-Mar)
 
@@ -452,8 +481,8 @@ Feel free to open an issue or reach out. Always down to discuss:
 
 <br/>
 
-*Last Updated: December 23, 2025*  
-*44 unique problems solved | 8 optimized versions | 64.52% acceptance rate*
+*Last Updated: December 25, 2025*  
+*47 unique problems solved | 10 optimized versions | 64.52% acceptance rate*
 
 </div>
 
