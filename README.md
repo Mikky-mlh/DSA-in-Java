@@ -8,7 +8,7 @@
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Mikky__mlh-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Mikky_mlh/)
 [![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Problems Solved](https://img.shields.io/badge/Problems_Solved-44_Unique-success?style=for-the-badge)](https://github.com/Mikky-mlh/DSA-LeetCode-Java)
+[![Problems Solved](https://img.shields.io/badge/Problems_Solved-50_Unique-success?style=for-the-badge)](https://github.com/Mikky-mlh/DSA-LeetCode-Java)
 
 <br/>
 
@@ -78,9 +78,9 @@ This is documentation of my structured DSA learning journey from November 2025 o
 | Metric | Value |
 |:-------|:-----:|
 | 🚀 **Started** | November 20, 2025 |
-| 📅 **Days Active** | 36 days |
-| ✅ **Unique Problems** | 47 solved |
-| 🔄 **Total Implementations** | 57 (47 unique + 10 optimized) |
+| 📅 **Days Active** | 35 days |
+| ✅ **Unique Problems** | 50 solved |
+| 🔄 **Total Implementations** | 60 (50 unique + 10 optimized) |
 | 📈 **Acceptance Rate** | 64.52% ⬆️ (+11.62%) |
 | 🎯 **LeetCode Profile** | [@Mikky_mlh](https://leetcode.com/u/Mikky_mlh/) |
 
@@ -95,14 +95,14 @@ This is documentation of my structured DSA learning journey from November 2025 o
 | Section | Problems Solved | Status | Next Target |
 |:--------|:---------------:|:------:|:------------|
 | **Patterns** | 17/17 | ✅ **Complete** | Universal methodology documented |
-| **Basic Maths** | 29/29 | ✅ **Complete** | 10 problems with multiple solutions |
-| **Misc/OOP** | 1/1 | ✅ **Complete** | Bank system implementation |
+| **Basic Maths** | 31/31 | ✅ **Complete** | 9 problems with multiple solutions |
+| **Misc/OOP** | 2/2 | ✅ **Complete** | Bank System + FIZZBUZZ |
 | **Basic Recursion** | 0/7 | 🔄 **Next** | Starting Dec 26, 2025 |
 | **Basic Hashing** | 0/6 | ⏳ **Planned** | After recursion |
 | **Sorting** | 0/7 | ⏳ **Planned** | Q1 2026 |
 | **Binary Search** | 0/32 | ⏳ **Planned** | Q1 2026 |
 
-**TOTAL: 47 unique problems + 10 optimized versions = 57 total implementations**
+**TOTAL: 50 unique problems + 10 optimized versions = 60 total implementations**
 
 ---
 
@@ -121,7 +121,7 @@ This is documentation of my structured DSA learning journey from November 2025 o
 
 ---
 
-### Basic Maths (26/26) - Optimization Fundamentals ✅
+### Basic Maths (31/31) - Optimization Fundamentals ✅
 
 **Core patterns mastered:**
 
@@ -134,7 +134,7 @@ This is documentation of my structured DSA learning journey from November 2025 o
 | **Two Pointers** | O(n) | Sorted array problems, optimization | Squares of Sorted Array |
 | **Frequency Map** | O(n) | Counting occurrences | First Unique Character |
 
-**10 problems with multiple solution approaches:**
+**9 problems with multiple solution approaches:**
 - **LCM:** Brute force → Mathematical formula using GCD
 - **Contains Duplicate:** HashSet.contains() → Sorting → HashSet.add() optimization
 - **Happy Number:** HashSet cycle detection → O(1) space using math property
@@ -250,8 +250,8 @@ DSA-LeetCode-Java/
 │   ├── Pascal_Triangle.java        # Pascal's triangle variations (2 problems)
 │   └── Advanced_Patterns.java      # Multi-conditional patterns (3 problems)
 │
-├── 📁 Basic Maths/                 # 29 unique + 10 optimized = 39 files
-│   ├── 📁 Modulus_Digit/           # 10 problems - digit manipulation
+├── 📁 Basic Maths/                 # 31 unique + 8 optimized = 39 files
+│   ├── 📁 Modulus_Digit/           # 9 problems - digit manipulation
 │   │   ├── Count_Digits.java
 │   │   ├── Number_Reversed.java    # With overflow handling
 │   │   ├── Palindrome.java         # O(1) space optimization
@@ -290,7 +290,8 @@ DSA-LeetCode-Java/
 │       ├── Excel_Column.java       # Base-26 conversion
 │       ├── Expo.java               # Power calculation
 │       ├── Fact_Zeroes.java        # Trailing zeros in factorial
-│       └── Power2.java             # Power of 2 check
+│       ├── Power2.java             # Power of 2 check
+│       └── SQRT.java               # Newton's method for square root
 │
 ├── 📁 JAVA COLLECTIONS/            # 13 comprehensive demos (NOT DSA problems)
 │   ├── L01ARRAYLIST.java           # Dynamic arrays, CRUD operations
@@ -314,7 +315,8 @@ DSA-LeetCode-Java/
 │   └── ... (2 more advanced demos)
 │
 ├── 📁 Misc/                        # OOP implementations
-│   └── Bank.java                   # Account system with validation
+│   ├── Bank.java                   # Account system with validation
+│   └── FIZZBUZZ.java               # Classic interview problem
 │
 └── 📖 README.md                    # You're reading it
 ```
@@ -361,7 +363,7 @@ If you copy-paste from this repo and get caught in an interview, don't say I did
 
 ### In Progress 🔄
 
-- [ ] **First 50 problems** - Target: Dec 31, 2025 (7 more to go)
+- [x] **First 50 problems** - Target: Dec 31, 2025 (✅ **ACHIEVED EARLY** - Dec 25, 2025)
 - [ ] **Basic Recursion complete** - Target: Jan 5, 2026 (7 problems)
 
 ### Upcoming 🎯
@@ -417,7 +419,7 @@ If you copy-paste from this repo and get caught in an interview, don't say I did
 - Understanding recursion patterns (base case, recursive case, call stack)
 - Building intuition for recursive thinking
 - Target: 5-7 recursion problems by Dec 31
-- Current: 47 unique problems solved (213% over revised target of 22)
+- Current: 50 unique problems solved (233% over revised target of 22)
 
 ### January 2026
 
@@ -482,7 +484,7 @@ Feel free to open an issue or reach out. Always down to discuss:
 <br/>
 
 *Last Updated: December 25, 2025*  
-*47 unique problems solved | 10 optimized versions | 64.52% acceptance rate*
+*50 unique problems solved | 10 optimized versions | 64.52% acceptance rate*
 
 </div>
 
