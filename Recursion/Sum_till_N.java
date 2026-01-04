@@ -1,15 +1,10 @@
 import java.util.Scanner;
 public class Sum_till_N {
-    public static void printSum(int n, int sum){
+    public static int printSum(int n){
         if(n==0){
-            System.out.println(sum);
-            return;
+            return 0;
         }
-        if(n<0){
-            System.out.println("Invalid input! Enter a Positive Number!");
-            return;
-        }
-        printSum(n-1, sum+n);
+        return n + printSum(n-1);
     }
 
     public static void main(String[] args){
@@ -17,7 +12,7 @@ public class Sum_till_N {
         System.out.print("Enter a number: ");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        printSum(n, 0);
+        System.out.println(printSum(n));
         sc.close();
     }
 }
