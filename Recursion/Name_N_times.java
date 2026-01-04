@@ -18,4 +18,3 @@ public class Name_N_times {
         sc.close();
     }
 }
-
