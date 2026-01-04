@@ -1,6 +1,6 @@
 public class Prime {
     public boolean isPrime(int n) {
-        //! basic approach but I used Sieve of Eratosthenes fo or other problems to reduce time complexity
+        //! basic approach but I used Sieve of Eratosthenes for other problems to reduce time complexity
         //! This solution is only applied here and not anywhere else
         if (n <= 1) return false;
         if (n == 2) return true;
