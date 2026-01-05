@@ -20,6 +20,18 @@ public class Reverse_Array {
         }
     }
 
+    public void reverseRecArray(int[] arr) {
+        reverseHelper(arr, 0, arr.length - 1);
+    }
+
+    private void reverseHelper(int[] arr, int L, int R) {
+        if (L >= R) return;
+        int temp = arr[L];
+        arr[L] = arr[R];
+        arr[R] = temp;
+        reverseHelper(arr, L + 1, R - 1);
+    }
+
     public static void main(String[] args) {
         Reverse_Array obj = new Reverse_Array();
 
@@ -35,6 +47,14 @@ public class Reverse_Array {
         int[] arr2 = {1, 2, 3, 4, 5};
         obj.reverseArray(arr2);
         for (int num : arr2) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+        // Test with recursive array
+        int[] arr3 = {1, 2, 3, 4, 5};
+        obj.reverseRecArray(arr3);
+        for (int num : arr3) {
             System.out.print(num + " ");
         }
         System.out.println();
