@@ -4,7 +4,7 @@
 ### **Pattern-Based Problem Solving • Quantitative Progress Tracking**
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Mikky__mlh-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Mikky_mlh/)
-[![Problems Solved](https://img.shields.io/badge/SOLVED-50_PROBLEMS-success?style=for-the-badge)](https://leetcode.com/u/Mikky_mlh/)
+[![Problems Solved](https://img.shields.io/badge/SOLVED-59_PROBLEMS-success?style=for-the-badge)](https://leetcode.com/u/Mikky_mlh/)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/Mikky-mlh/DSA-in-Java?style=for-the-badge&color=64ffda)](https://github.com/Mikky-mlh/DSA-in-Java)
 
 **I build solutions that are earned, not copied.** This repository tracks my transition from brute-force attempts to structured pattern recognition.
@@ -67,7 +67,7 @@ DSA-in-Java/
 | **Patterns** | 🟢 Complete | 17/17 | Visualizing loop mechanics & formulas |
 | **Basic Maths** | 🟢 Complete | 31/31 | Optimizing Prime checks from O(n) to O(√n) |
 | **Collections API** | 🟢 Complete | Mastered | Understanding Time Complexity of Data Structures |
-| **Recursion** | 🟡 Active | 07/07 | Call stack analysis & Base-case identification |
+| **Recursion** | 🟢 Complete | 08/08 | Call stack analysis & Base-case identification |
 | **Hashing/Arrays** | ⚪ Upcoming | -- | Sliding Window & Two-Pointer techniques |
 
 ---
