@@ -4,7 +4,7 @@
 ### **Pattern-Based Problem Solving • Quantitative Progress Tracking**
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Mikky__mlh-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Mikky_mlh/)
-[![Problems Solved](https://img.shields.io/badge/SOLVED-65_UNIQUE_PROBLEMS-success?style=for-the-badge)](https://leetcode.com/u/Mikky_mlh/)
+[![Problems Solved](https://img.shields.io/badge/SOLVED-68_UNIQUE_PROBLEMS-success?style=for-the-badge)](https://leetcode.com/u/Mikky_mlh/)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/Mikky-mlh/DSA-in-Java?style=for-the-badge&color=64ffda)](https://github.com/Mikky-mlh/DSA-in-Java)
 
 **I build solutions that are earned, not copied.** This repository tracks my transition from brute-force attempts to structured pattern recognition.
@@ -34,8 +34,8 @@ Data-driven proof that a **Pattern-First Methodology** works.
 | Metric | Baseline (Nov 2025) | Current (Jan 2025) | Delta |
 | :--- | :--- | :--- | :--- |
 | **LeetCode Acceptance** | 52.9% | 64.52% | **+11.62%** |
-| **Unique Problems** | ~35 | **65** | **+86%** 📈 |
-| **Total Implementations** | ~45 | **92** | Multi-solution approach |
+| **Unique Problems** | ~35 | **68** | **+94%** 📈 |
+| **Total Implementations** | ~45 | **95** | Multi-solution approach |
 | **Solving Strategy** | Brute-Force Guessing | Pattern-First Logic | 🚀 Optimized |
 
 ---
@@ -58,7 +58,10 @@ DSA-in-Java/
 │   ├── Fibonacci, Tribonacci, Climbing Stairs (iterative + recursive)
 │   ├── Pascal's Triangle, Power(x,n) (both approaches commented)
 │   └── Reverse Array/String (3 methods in Reverse_Array.java)
-├── 📂 COLLECTIONS/         # 15 reference files (NOT problems)
+├── 📂 Codeforces/          # 3 unique problems (competitive programming)
+│   ├── 📁 800-1000/          # 2 problems (Domino Piling, Watermelon)
+│   └── 📁 1001-1500/         # 1 problem (Laptops - sorting + greedy)
+├── 📂 JAVA COLLECTIONS/    # 15 reference files (NOT problems)
 └── 📂 Misc/                # 3 unique problems (Bank, FizzBuzz, Palindrome variant)
 
 ```
@@ -73,6 +76,7 @@ DSA-in-Java/
 | **Basic Maths** | 🟢 Complete | 31 | 39 | **12 multi-solution problems** (O(n²)→O(n), O(n)→O(√n)) |
 | **Recursion** | 🟢 Complete | 15 | 15 | Dual approaches (iterative + recursive) in single files |
 | **Collections API** | 📚 Reference | 0 | 15 | Deep understanding of Java DS internals |
+| **Codeforces** | 🟡 In Progress | 3 | 3 | Competitive programming (800-1500 rating) |
 | **Miscellaneous** | 🟢 Complete | 3 | 3 | OOP + Logic problems |
 | **Hashing/Arrays** | ⚪ Upcoming | -- | -- | Sliding Window & Two-Pointer techniques |
 
@@ -102,7 +106,7 @@ Every solution in this repo adheres to **Interview-Grade Standards**:
 
 **"In a world of copy-paste, I ship solutions I actually understand."**
 
-*65 Unique Problems • 92 Total Implementations • 12 Multi-Solution Problems*
+*68 Unique Problems • 95 Total Implementations • 12 Multi-Solution Problems*
 
 **Maintained by [Yuvraj Sarathe](https://github.com/Mikky-mlh)** • *B.Tech Cyber Security Student*
 
