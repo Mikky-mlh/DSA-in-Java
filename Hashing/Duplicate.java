@@ -1,5 +1,5 @@
 import java.util.HashSet;
-//! Not good not bad
+
 public class Duplicate {
     public boolean containsDuplicate(int[] nums) {
         // Track seen numbers
